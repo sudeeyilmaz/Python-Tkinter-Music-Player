@@ -20,39 +20,31 @@ A simple yet functional **MP3 Music Player** application developed using **Pytho
 * **Audio Engine:** Pygame (Mixer module)
 * **OS Interaction:** `os` & `fnmatch` modules for file handling.
 
-## 📂 Project Structure
-
-```text
-├── main.py             # The main source code
-├── play_img.png        # Asset: Play button icon
-├── pause_img.png       # Asset: Pause button icon
-├── stop_img.png        # Asset: Stop button icon
-├── next_img.png        # Asset: Next button icon
-├── prev_img.png        # Asset: Previous button icon
-└── README.md           # Documentation
 ## ⚙️ Installation & Usage
-1. Clone the repository
-Bash
 
+### 1. Clone the repository
+bash
 git clone [https://github.com/sudeeyilmaz/Python-Tkinter-Music-Player.git](https://github.com/sudeeyilmaz/Python-Tkinter-Music-Player.git)
 cd Python-Tkinter-Music-Player
-2. Install Dependencies
+### 2. Install Dependencies
 This project requires pygame for audio processing.
 
 Bash
 
 pip install pygame
-3. Configuration (Important)
+### 3. Configuration (Important)
 Open the main.py file and locate the rootpath variable. Change it to the folder path where your MP3 files are stored:
 
 Python
+
 # In main.py
 rootpath = "C:\\Users\\YourName\\Music\\MySongs"
-4. Run the App
+### 4. Run the App
 python main.py
+📸 Screenshots
 The application launches a window listing all MP3s found in the target folder. You can navigate through your music library using the on-screen buttons.
 
-📝 Future Improvements
+## 📝 Future Improvements
 Adding a volume control slider.
 
 Implementing a "Select Folder" dialog to choose music directory dynamically.
