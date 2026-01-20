@@ -41,7 +41,6 @@ Python
 rootpath = "C:\\Users\\YourName\\Music\\MySongs"
 ### 4. Run the App
 python main.py
-📸 Screenshots
 The application launches a window listing all MP3s found in the target folder. You can navigate through your music library using the on-screen buttons.
 
 ## 📝 Future Improvements
